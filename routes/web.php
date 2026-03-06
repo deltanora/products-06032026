@@ -14,4 +14,8 @@ Route::get('/info', function () {
     return view('info');
 });
 
+Route::get('/products', function () {
+    $products =  Product::all();
+    return view ('products', [])
+});
 

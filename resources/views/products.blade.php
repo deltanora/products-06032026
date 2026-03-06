@@ -1,0 +1,1 @@
+@foreach ($products as $product)
